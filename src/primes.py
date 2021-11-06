@@ -1,5 +1,5 @@
 class SearchPrimes():
-    """[summary]
+    """Utilities to find prime related solutions.
     """
 
     def is_prime_brute_force(self, num, look_progress = False):
@@ -68,4 +68,3 @@ class SearchPrimes():
         else:
             return {"is_prime":None, "comment":"Nothing in there"}
 
-            
